@@ -3,9 +3,10 @@
     margin-top: 150px;
     font-family: "adobe-clean", sans-serif;
    font-size: 45px;
-  
+   
    width: 700px;
 }
+
 #Lists{
     color: rgb(85, 78, 78) ;
     
@@ -73,7 +74,7 @@ filter: blur(10px);
 width: 250px; 
 height: 120px; 
 position: absolute; 
-top: 200px;
+top: 300px;
 left: 550px;
 border:1px solid red;
 border-radius: 10px;
@@ -83,11 +84,23 @@ justify-content: center;
 
 box-shadow: 9px 9px rgb(218, 214, 214);
 }
+.page4{
+    width: 250px; 
+    height: 120px; 
+    position: absolute; 
+    top: 300px;
+    left: 550px;
+    border:1px solid red;
+    border-radius: 10px;
+    color: rgb(204, 47, 47);
+    text-align: center;
+    justify-content: center;
+    
+    box-shadow: 9px 9px rgb(218, 214, 214);
+    }
 .page2{
 margin-left: 510px;
-margin-top: 80px;
-text-align: center;
-justify-content: center;
+margin-top: 50px;
 font-family: "adobe-clean", sans-serif;
 font-size: 20px;
 }
@@ -123,104 +136,114 @@ position: absolute;
     margin-left: 780px;
     position: absolute;
 
-}  
-@media(max-width:600px){
+}
+
+@media  (max-width:1100px) {
+
+    .cont{
+        width: 10px;
+        align-items: center;
+    }
+    .container{
+        width: 80%;
+        display: inline-block;
+        align-items: center;
+    }
+    #Tasks{
+        margin-left: -350px;
+        font-size:30px;
+    }
+    #Lists{
+        font-size:30px;
+    }
+    .media{
+        margin-left: -300px;
+        margin-top: -53px;
+    }
     #add{
         display: none;
     }
-
-    #Tasks{
-        margin-left: -370px;
+    #box1 hr{
+        display: none;
+    }
+    #box2 hr{
+        display: none;
+    }
+    #box3 hr{
+        display: none;
     }
     
-.cont{
-    width:140px;
-    display: inline-block;
     
+    #box1{
+        width:120%;
+        height:50px;
+        overflow: hidden;
+        
+        
+    }
+    #box2{
+        width:120%;
+        height:50px;
+        overflow: hidden;
+     
+    }
+        #box3{
+            width:120%;
+            height:50px;
+            overflow: hidden;
+           
+        }
 
+        /* index1 */
+        .cont2{
+            width: 10px;
+            align-items: center;
+        }
+        #add1{
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+        .media3  {
+            margin-top: 80px;
+            margin-left: -420px;
+            display: flex;
+        }
+        .media3 i{
+            margin-left: 500px;
+            margin-top: -50px;
+            
+        }
+        .page2{
+            width: 80%;
+            
+        }
+        .box4{
+            margin-left: -410px;
+           
+        }
+        .tag1{
+            display: none;
+        } 
+         .tag2{
+          display: none;
 }
-.container{
-    width: 400px;
-    margin-left: -420px;
-    
-}
-.icon {
-    margin-left: -200px;
-}
-#box1{
-   
-    width: 95%;
-}
-#box2{
-    margin-left: -10px;
-    width: 95%;
-}
-#box3{
-    margin-left: -10px; 
-    width: 95%;
-}
-.tag{
-    
-    width: 12%;
-margin-top: 20px;
-margin-left: 410px;
-position: absolute;
-}
-.can2{
-    margin-left: -870px;
-}
-.cont2{
-    width:140px;
-}
-.container2{
-    width: 400px;
-    margin-left: -480px;
-}
-h1{
-    margin-left: -60px;
-    font-size: 30px;
-}
-.tag1{
-    margin-left: 20px;
-    width: 10%;
-}
-.tag2{
-    margin-left: 280px;
-    width: 10%;
-}
-.post{
-    display: inline-block;
-}
-#add1{
-    margin-left: 150px;
-}
-.inline{
-    margin-top: 50px;
-    margin-left: -470px;
+.media2 h1{
+    align-content: center;
+    margin-left: 180px;
+    white-space: nowrap;
 }
 .cont3{
-    width: 140px;
-}
-.post2{
-    margin-left: -250px;
-}
-.cont3{
-width: 100px;
-display: inline-block;
+    width: 10px; ;
 }
 .page3{
-    margin-left: -480px;
-    margin-top: 150px;
+    margin-left: -470px;
+    margin-top: -30px;
 }
 .cont4{
-    width: 100px;
+    width: 10px;
 }
-.outline{
-    margin-left: -500px;
-    margin-top: 400px;
+.page4{
+    margin-left: -420px;
+    margin-top: -30px;
 }
-
-.page3{
-    margin-top: 50px;
 }
-} 
